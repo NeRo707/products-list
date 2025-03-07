@@ -15,7 +15,6 @@ body{
     padding: 5px 0;
 }
 h1{
-    color: #262834;
     font-size: 22px;
     padding: 8px;
 }
@@ -82,4 +81,50 @@ textarea{
     letter-spacing: 0.2px;
     font-family: monospace, sans-serif;
     font-size: 20px;
+    min-height: 300px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.docs-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.example {
+  background-color: #f8f8f8;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.example pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.error {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
 }
